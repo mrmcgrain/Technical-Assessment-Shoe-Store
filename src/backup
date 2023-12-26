@@ -1,0 +1,82 @@
+
+@media (max-width: 375px) { 
+  .nav {
+    display: none;
+  }
+
+#DashBoard {
+  width: 375px;
+}
+
+
+#left-body {
+  width: 375px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-grid{
+  /* display: flex; */
+  /* grid-template-columns:  auto auto ;
+  grid-gap: 10px; */
+  /* width: fit-content; */
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Header {
+display: flex;
+flex-direction: row;
+}
+
+#right-body {
+  width: 375px;
+  /* height: 100%;; */
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding: 0px;
+  margin: 0px;
+  /* padding: 20px; */
+  /* position: relative; */
+}
+
+#container {
+  /* display: none; */
+  width: 375px;
+}
+
+#ProductInfo{
+  /* border: solid red 1px; */
+  /* height: 100%; */
+  /* display: flex;
+  justify-content:center;
+  align-items: center;  */
+}
+
+#prevContainer {
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /* width: fit-content; */
+}
+#Body {
+  width: 375px;
+}
